@@ -15,31 +15,29 @@
           </div>
           <div class="footer-col-2">
               <img src="{% static 'ECOMMERCE/images/dqstore.png' %}">
-              <p>Our Purpose Is To Sustainably Make th Pleasure and Benefits of Sports Accessible to the Many.</p>
+              <p>Thanks Babe!</p>
           </div>
           <div class="footer-col-3">
               <h3>Useful Links</h3>
               <ul>
-                <a href="{% url 'home' %}"><li>HOME</li></a>
-                <a href="{% url 'products' %}"><li>Products</li></a>
-                <a href="#"><li>About</li></a>
+                <a href="{% url 'home' %}"><li>Shipping<li></a>
+                <a href="{% url 'products' %}"><li>Returns</li></a>
+                <a href="#"><li>About Us</li></a>
                 <a href="{% url 'contactus' %}"><li>Contact US</li></a>
-                <a href="{% url 'registration' %}"><li>Accounts</li></a>
+                <a href="{% url 'registration' %}"><li>Account</li></a>
               </ul>
           </div>
           <div class="footer-col-4">
-              <h3>Follow us</h3>
+              <h3>Find us on</h3>
               <ul>
                   {% for link in p|social_links %}
                   <a href="{{ link.facebook }}"><li><i class="fab fa-facebook pe-4"></i>Facebook</li></a>
-                  <a href="{{ link.whatsapp }}"><li><li><i class="fab fa-whatsapp pe-4"></i>Whatsapp</li></a>
                   <a href="{{ link.instagram }}"><li><li><i class="fab fa-instagram pe-4"></i>Instagram</li></a>
-                  <a href="{{ link.github }}"><li><li><i class="fab fa-github pe-4"></i>Github</li></a>
                   {% endfor %}
               </ul>
           </div>
       </div>
       <hr>
-      <p class="copyright"> Copytight 2021 - NoMi Boutique</p>
+      <p class="copyright"> Copyright 2021 - NoMi Boutique</p>
   </div>
 </div>

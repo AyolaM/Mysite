@@ -37,7 +37,7 @@ PRODUCTS | nomi-boutique
                 {% csrf_token %}
                 <div class="col-5">
                     <select class="form-select" aria-label="Default select example" name="category" id="category">
-                        <option disabled selected hidden>Select Category...</option>
+                        <option disabled selected hidden>Categories</option>
                         {% for category in categories %}
                         <option value="{{ category.id }}">{{ category.category_name }}</option>
                         {% endfor %}
@@ -63,9 +63,9 @@ PRODUCTS | nomi-boutique
 
     <!---------------------- PRODUCTS -------------------->
     {% if paginator.count is 0 %}
-    <h1 class="text-center mt-5 mb-5">No Result Found!</h1>
+    <h1 class="text-center mt-5 mb-5">Check back soon!</h1>
     {% else %}
-    <h2 class="title">Featured Products</h2>
+    <h2 class="title">Entire Collection</h2>
     <div class="row">
         {% for product in page %}
         <div class="col-md-3 col-sm-6 mb-4">

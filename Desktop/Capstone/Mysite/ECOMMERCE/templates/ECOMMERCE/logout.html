@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block title %}
-LOGIN | DQSTORE
+LOGIN | NoMI
 {% endblock title %}
 
 
@@ -38,7 +38,7 @@ LOGIN | DQSTORE
     }
 
     .login{
-    	color:blue;
+    	color: #D0A98F;
     }
 
     a{
@@ -49,8 +49,8 @@ LOGIN | DQSTORE
 </style>
 <div class="text-center margin">
 	<h1>Logged out</h1>
-	<h4 class="mt-5">Thanks for spending some quality time with the Web site today.</h4>
-	<a href="{% url 'login' 0 %}" class="login">Login Again</a>
+	<h4 class="mt-5">Bye babe! Come back soon.</h4>
+	<a href="{% url 'login' 0 %}" class="login">Login</a>
 </div>
 {% endblock content %}
 
