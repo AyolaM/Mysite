@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #e2ccc7;
+  text-align: start;
+  padding: 20px;
+  color: #a2857e;
+  font-family: "Josefin Slab", serif;
+}
+q {
+  color: #e2ccc7;
+}
+input {
+  height: 40px;
+  border-radius: 25px;
+  text-align: center;
+  margin: 10px;
+  padding: 2px;
+  background-color: #e2ccc7;
+  box-shadow: inset 6px 6px 12px #a2857e;
+  border-style: none;
+}
+
+body {
+  background-color: #e2ccc7;
+  font-family: sans-serif;
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #a2857e;
+  text-align: end;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #e2ccc7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #e2ccc7;
+  color: #a2857e;
+  border-radius: 25px;
+}
+
+ul {
+  text-align: center;
+  justify-content: center;
+  border-style: none;
+  border-radius: 45px;
+  box-shadow: inset 6px 6px 12px #a2857e;
+  margin: 38px;
+  padding: 20px;
+  color: grey;
+}
+
+.footer {
+  background-color: #a2857e;
+  text-align: center;
+  padding: 22px 18px;
+}
+
+.footer a {
+  color: #e2ccc7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding: 14px;
+  margin: 14px;
+}
+
+.footer a:hover {
+  background-color: #e2ccc7;
+  color: #a2857e;
+  border-radius: 25px;
+}
+
+.back-to-top {
+  /* display: none; */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 35px;
+  height: 35px;
+  z-index: 10;
+  border-radius: 50%;
+  background-color: #e2ccc7;
+  padding: 0;
+  border-style: none;
+  box-shadow: inset 6px 6px 12px #a2857e;
+  color: grey;
+}

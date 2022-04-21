@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  background-color: #9d8977;
+  text-decoration: none;
+  color: whitesmoke;
+}
+header {
+  text-align: center;
+}
+
+nav {
+  text-align: end;
+  overflow: hidden;
+  display: block;
+  justify-content: end;
+  margin: 10px;
+  padding: 10px;
+}
+
+img {
+  width: 300px;
+  height: 250px;
+  float: right;
+  justify-content: right;
+  width: 40%;
+  margin: 16px;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 20px 20px 50px #b2a496, -30px -30px 60px #b2a496;
+}
+
+.nav a:hover {
+  font-weight: bolder;
+  color: #b2a496;
+}
+
+body {
+  margin: 20px;
+  padding: 10px;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+  margin: 16px;
+}
+
+.paras {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  margin: 16px;
+  line-height: 20px;
+}
+
+/* Clear floats after the columns */
+.paras:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.p-1 {
+  width: 50%;
+  margin: 16px;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 20px 20px 50px #b2a496, -30px -30px 60px #b2a496;
+}
+
+.p-2 {
+  width: 50%;
+  margin: 16px;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 20px 20px 50px #b2a496, -30px -30px 60px #b2a496;
+}
+
+.p-3 {
+  width: 75%;
+  margin: 16px;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 20px 20px 50px #b2a496, -30px -30px 60px #b2a496;
+}
+
+footer {
+  text-align: center;
+  justify-content: center;
+}
+footer a:hover {
+  font-weight: bolder;
+  color: #b2a496;
+}
+
+/* Mobile */
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .nav {
+    text-align: center;
+    font-size: 22px;
+  }
+  .head {
+    text-align: center;
+    justify-content: center;
+    font-size: 28px;
+  }
+  body {
+    font-size: 20px;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+  }
+
+  .p-1 {
+    width: 100%;
+  }
+  .p-2 {
+    width: 100%;
+  }
+  .p-3 {
+    width: 100%;
+  }
+}
